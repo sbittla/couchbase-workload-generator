@@ -1,0 +1,11 @@
+server: localhost
+user: Administrator
+password: admin@123
+bucket: employee
+query: SELECT `name` FROM `employee` WHERE department = $1 AND salary > $2 AND employed = $3 LIMIT 100
+adhoc: false
+arguments:
+    - finance, 8000, yes
+    - sales, 12000, yes
+    - marketing, 9500, yes
+threads: 50
