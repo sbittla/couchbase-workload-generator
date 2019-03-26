@@ -8,8 +8,8 @@ Set up a couchbase server by running the below docker command.
 docker run -d --name db -p 8091-8096:8091-8096 -p 11210-11211:11210-11211 couchbase
 
 ### Create a user:
-Open the server URL http://&lt;hostname&gt;:8091/ui/index.html and create a user<br>
-**Username:** Administrator<br>
+Open the server URL http://&lt;hostname&gt;:8091/ui/index.html and create a user<br/>
+**Username:** Administrator<br/>
 **Password:** admin@123
 
 ### Create a new cluster db1 with the appropriate cluster details
@@ -21,7 +21,7 @@ Open the server URL http://&lt;hostname&gt;:8091/ui/index.html and create a user
 ### Install maven 3
 
 ## Generate Executable jar
-Go to the project base folder where pom.xml file is located and run the below command to generate the executable jar <brM
+Go to the project base folder where pom.xml file is located and run the below command to generate the executable jar <br/>
 **mvn clean install**
 
 Executable jar will be generated under the folder ./target/workloadgenerator-&lt;version&gt;-jar-with-dependencies.jar
