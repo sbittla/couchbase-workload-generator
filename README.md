@@ -35,13 +35,13 @@ Since ./target/workloadgenerator-&lt;version&gt;-jar-with-dependencies.jar is an
 ### Command used for running the jar file from the project folder: 
 java -jar ./target/workloadgenerator-&lt;version&gt;-jar-with-dependencies.jar &lt;file.yml&gt; &lt;populateData / runWorkload&gt; &lt;number of rows to populate&gt;
 
-1.	Run below command to populate the data, this command populates about 1000 records into the couchbase database. <br/>;
+1.	Run below command to populate the data, this command populates about 1000 records into the couchbase database. <br/>
 	**Ex 1:** java -jar ./target/workloadgenerator-&lt;version&gt;-jar-with-dependencies.jar my_config.yml populateData 1000
 
-If you don’t give the third argument, by default it is going to populate 500 records. <br/>;
+If you don’t give the third argument, by default it is going to populate 500 records. <br/>
 	 **Ex2:** java -jar ./target/workloadgenerator-&lt;version&gt;-jar-with-dependencies.jar my_config.yml populateData
 
-2.	Run below command to generate the workload. Running command 1 is pre-requisite for command 2.<br/>;
+2.	Run below command to generate the workload. Running command 1 is pre-requisite for command 2.<br/>
 	**Ex:** java -jar ./target/workloadgenerator-&lt;version&gt;-jar-with-dependencies.jar my_config.yml runworkload
 
 
